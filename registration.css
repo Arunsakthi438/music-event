@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+     background-image:url('images/musiii.jpg') ; 
+     background-size: cover; 
+    /* background-image: linear-gradient(to bottom right, RED,rgb(245, 239, 239))  ; */
+}
+h1{
+    color: rgb(230, 240, 101);
+}
+.nav{
+   color: rgb(173, 13, 13);
+    float: right;
+    display: flex;
+     margin: 40px 140px ;
+      
+}
+span{
+    color: rgb(249, 249, 253);
+}
+
+.nav li{
+    display: flex;
+    margin: 0px 50px; 
+}
+.nav li a{
+   text-decoration: none;
+   color: rgb(243, 238, 238);
+   font-size:25px; 
+}
+.nav li a:hover{
+    color: greenyellow;
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.imge img{
+    
+    float: left;
+    margin-left: 50px;
+    width: 160px;
+}
+
+h2 {
+    color: rgb(243, 237, 237);
+}
+
+form {
+    /*position: absolute;*/
+
+     background-image:url('images/violin.jpg')  ; 
+    background-size: cover;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 200px;
+    margin-left: 400px;
+    /*margin: 400px;*/
+    height: 950px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 6px 10px 5px 10px rgb(238, 236, 236);
+    border-radius: 9px;
+
+}
+
+
+.label input {
+    width: 60%;
+    height: 40px;
+    border-radius: 6px;
+
+}
+
+.label label {
+    margin-right: 250px;
+    color: rgb(236, 239, 240);
+}
+
+form img {
+
+    bottom: 20px;
+    width: 100%;
+    color: rgb(211, 30, 30);
+
+}
+
+.comt label {
+    color: rgb(250, 245, 245);
+}
+
+.comt textarea {
+    width: 60%;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.radio {
+    color: rgb(248, 243, 243);
+    margin-right: 160px;
+}
+
+.select {
+    color: rgb(250, 250, 245);
+    margin-right: 160px;
+}

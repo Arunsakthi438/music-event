@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    background-image: url('images/mainbc.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(201, 17, 103);
+}
+
+h4 {
+    color: azure;
+}
+
+
+.nav {
+    color: rgb(173, 13, 13);
+    float: right;
+    display: flex;
+    margin: 40px 140px;
+
+}
+
+span {
+    color: rgb(58, 120, 212);
+}
+
+.nav li {
+    display: flex;
+    margin: 0px 50px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(243, 238, 238);
+    font-size:30px;
+}
+
+.nav li a:hover {
+    color: rgb(18, 243, 18);
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+}
+
+.imge img {
+
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+}
+
+p {
+    color: brown;
+    font-size: 20px;
+}
+
+.image {
+    margin-left: 28%;
+}
+
+h2 {
+    color: rgb(209, 21, 21);
+    margin-left: 42%;
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(247, 247, 244);
+    margin-left: 41%;
+    font-size: 30px;
+
+}
+
+p {
+    margin-left: 35%;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+button {
+    margin-left: 45%;
+    background-color: rgb(156, 32, 32);
+    font-size: 22px;
+    box-shadow: rgb(10, 10, 10);
+    border-radius: 8px;
+}
+
+button:hover {
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: transform 0.2 ease-in-out;
+}

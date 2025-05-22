@@ -1,0 +1,289 @@
+body {
+    background-image:url('images/bc.jpg');
+    background-size: cover;
+    background-color: black;
+
+}
+
+.nav {
+    color: rgb(173, 13, 13);
+    float: right;
+    display: flex;
+    margin: 40px 120px;
+}
+.nav li {
+    display: flex; 
+     margin: 0px 50PX; 
+}
+
+span {
+    color: rgb(236, 234, 234);
+}
+
+.nav li a {
+    text-decoration:none;
+    color: rgb(141, 216, 20); 
+    font-size:25px;
+}
+
+
+.nav a:hover {
+    color: rgb(242, 243, 239);
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+}
+
+.imge img {
+
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+}
+
+h1 {
+    color: rgb(233, 32, 32);
+    margin-left: 700PX;
+}
+
+p {
+    color: rgb(241, 238, 238);
+    font-size: 20px;
+}
+
+marquee img {
+    margin: 0px 30px;
+    
+}
+
+/*.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+     box-sizing: border-box; 
+
+}
+
+.marquee span {
+    display: inline-block;
+     padding-left: 100%; 
+    animation: scroll-left 8s linear 5;
+}*/
+
+
+p {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.border {
+    border: solid 2px;
+}
+
+.box img {
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+     
+
+}
+
+
+h2 {
+    margin-left: 850PX;
+    color: rgb(20, 20, 20);
+}
+
+.container1 {
+    /* float: left; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: transparent;
+    margin-left: 85px;
+   
+   
+}
+
+/*.container div
+{
+    width: 200px;
+    height: 500px;
+}*/
+.container1 div {
+    /* width: 21%; 
+    height: 660px; */
+    /* float: left;   */
+    /* margin-top: 200PX;
+    margin: 0px 100px;*/
+    /* background-color: transparent;*/
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 30%;
+  
+   
+    
+
+}
+
+.size {
+    width: 425px;
+    height: 500px;
+}
+
+/*.content1 {
+    background-color: transparent;
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+     border: 1px solid black;  
+
+}
+
+
+.content2 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+     border: 1px solid black; 
+
+}
+
+.content3 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+     border: 1px solid black; 
+
+}*/
+
+h3 {
+    color: rgb(19, 18, 18);
+    text-align: center;
+    font-size: 25PX;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: transparent;
+    margin-left: 85px;
+
+}
+
+.container2 div {
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.si {
+    width: 425px;
+    height: 500px;
+}
+
+
+
+/* .cont1 {
+    background-color: rgb(235, 42, 42);
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid black; 
+
+}
+
+
+.cont2 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid black; 
+
+}
+
+.cont3 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid black; 
+
+} */
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: transparent;
+    margin-left: 85px;
+}
+
+.container3 div {
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.shape {
+    width: 425px;
+    height: 500px;
+}
+
+
+
+/*.con1 {
+    background-color: transparent;
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+     border: 1px solid black; 
+
+}
+
+
+.con2 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid black; 
+
+}
+
+.con3 {
+    height: 500px;
+    width: 20%;
+    margin-top: 20px;
+     border: 1px solid black; 
+
+ } */
+
+/*.marquee {
+  --gap: 1rem;
+  display: flex !important;
+  overflow: hidden !important;
+  user-select: none;
+  gap: var(--gap);
+}
+
+.marquee_content {
+  flex-shrink: 0;
+  gap: var(--gap);
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+ } */
