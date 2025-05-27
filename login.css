@@ -1,0 +1,93 @@
+body {
+    background-image: url('images/m2.webp');
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+}
+
+.nav {
+    color: rgb(173, 13, 13);
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 120px;
+
+}
+
+span {
+    color: rgb(18, 230, 230);
+}
+
+.nav li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 35px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    font-size: 25px;
+}
+
+.nav li a:hover {
+    color: rgb(242, 245, 239);
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+}
+
+.imge img {
+
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+}
+
+form {
+    background-color: rgb(253, 248, 248, 0.1);
+    text-align: center;
+    max-width: 450px;
+    margin-top: 250px;
+    margin-left: 700px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 600px;
+    box-shadow: 4px 6px 5px 8px;
+}
+
+/* form:hover{
+    color: crimson;
+   
+    
+} */
+
+
+form button {
+    color: aliceblue;
+    background-color: rgb(26, 24, 24);
+    width: 70px;
+}
+
+.input input {
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgb(14, 13, 13);
+}
+
+.input label {
+    margin-right: 220px;
+    font-size: 20px;
+}
+
+.gender label {
+    font-size: 20px;
+}
+
+.reg a {
+    margin-top: 100px;
+    margin-right: 35px;
+    padding: 20px 30px;
+}
