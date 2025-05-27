@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    background-image:url('images/earbuds-7520738_1920.jpg') ;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(201, 17, 103);
+}
+
+h4 {
+    color: azure;
+}
+
+
+.nav {
+    color: rgb(173, 13, 13);
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 120px;
+
+}
+
+span {
+    color: rgb(58, 120, 212);
+}
+
+.nav li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 35px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(243, 238, 238);
+    font-size:25px;
+}
+
+.nav li a:hover {
+    color: rgb(18, 243, 18);
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+}
+
+.imge img {
+
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+}
